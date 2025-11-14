@@ -1,0 +1,30 @@
+name: profil_dosen_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2  
+
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Gambar WhatsApp 2025-10-19 pukul 14.08.08_14765bdc.jpg
+    - assets/Gambar WhatsApp 2025-10-19 pukul 14.23.04_b1822db6.jpg
+    - assets/Gambar WhatsApp 2025-10-19 pukul 14.25.51_48c482a3.jpg
+    - assets/Gambar WhatsApp 2025-10-19 pukul 14.27.48_00e38c98.jpg
