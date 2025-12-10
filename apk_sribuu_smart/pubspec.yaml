@@ -1,0 +1,39 @@
+name: apk_sribuu_smart
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  # Batasan SDK: Sudah benar dan kompatibel dengan versi Dart 3.x.x.
+  sdk: '>=3.0.0 <4.0.0' 
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Paket UI dan Utilitas
+  cupertino_icons: ^1.0.8
+
+  # Paket Fungsionalitas Utama
+  fl_chart: ^0.68.0 
+  intl: ^0.20.0             # Digunakan untuk format mata uang/tanggal
+  http: ^1.2.1              # Digunakan untuk koneksi web (jika ada)
+  shared_preferences: ^2.2.2 # Digunakan untuk penyimpanan data lokal
+  percent_indicator: ^4.2.3 # Digunakan untuk indikator kemajuan Goal Saving
+
+  # Paket Export PDF (WAJIB untuk fitur Laporan Keuangan)
+  pdf: ^3.10.6      
+  printing: ^5.12.0 
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Alat Analisis Kode
+  flutter_lints: ^3.0.0 
+
+flutter:
+  uses-material-design: true
+
+# Bagian dependency_overrides TIDAK diaktifkan karena tidak ada konflik yang dilaporkan.
